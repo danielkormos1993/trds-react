@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './trds/tr-theme.css';
+
+import Text from './trds/typhography/Text';
+import Title from './trds/typhography/Title';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Title level="3" className="size--xs variant--1">Hello there its a long text lets see if it cuts at some point buti it most be a long one haha Hello there its a long text lets see if it cuts at some point buti it most be a long one hahaHello there its a long text lets see if it cuts at some point buti it most be a long one haha</Title>
   );
 }
 
