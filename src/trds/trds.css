@@ -27,6 +27,8 @@
     --size--xxl--line-height: 1.25;
 
 
+    --container--max-width: 1700px;
+    --container--padding-x: 5%;
     --element--base-width: 400px;
     --element--max-width: 800px;
 
